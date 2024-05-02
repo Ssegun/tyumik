@@ -132,6 +132,7 @@ a.white {
 
 .testimonial-author {
 	font: 700 1rem/1.5rem "Montserrat", sans-serif;
+	width: 220px;
 }
 
 .btn-solid-reg {
@@ -1476,6 +1477,7 @@ a.back-to-top {
 	text-indent: -9999px;
 }
 
+
 /* a:hover.back-to-top {
 	background-color: #36edfd; 
 } */
@@ -2130,5 +2132,15 @@ a.back-to-top {
 		margin-left: 1.75rem;
 	}
 	/* end of extra pages */
+}
+
+.tele-slider {
+	width: 100px;
+}
+
+@media (max-width: 1000px) {
+	.tele-slider {
+		width: 50px;
+	}
 }
 /* end of min-width width 1200px */
