@@ -62,7 +62,10 @@ body, p {
 	padding-left: 1.25rem;
 }
 
-
+.header-text {
+	color: #fff;
+	font: 700 2rem "Montserrat", sans-serif;
+}
 
 h1 {
 	color: #fff;
@@ -627,7 +630,7 @@ input[type='checkbox'] {
 /*     03. Navigation     */
 /**************************/
 .navbar-custom {
-	background-color: #4633af;
+	background-color: #266b9d;
 	box-shadow: 0 0.0625rem 0.375rem 0 rgba(0, 0, 0, 0.1);
 	font: 700 0.75rem/2rem "Montserrat", sans-serif;
 	transition: all 0.2s;
@@ -655,6 +658,7 @@ input[type='checkbox'] {
 	padding: 0 0.75rem 0 0.75rem;
 	color: #fff;
 	text-decoration: none;
+	font-size:1.2rem;
 	transition: all 0.2s ease;
 }
 
@@ -1525,9 +1529,12 @@ a:hover.back-to-top {
 /*     20. Media Queries     */
 /*****************************/	
 /* Min-width width 768px */
-@media (min-width: 768px) {
-	
+@media (min-width: 768px) {	
+	.header-text {
+		font-size:3rem
+	}
 	/* General Styles */
+
 	.p-heading {
 		width: 85%;
 		margin-right: auto;
@@ -1732,7 +1739,9 @@ a:hover.back-to-top {
 
 /* Min-width width 992px */
 @media (min-width: 992px) {
-	
+	.header-text {
+		font-size:2rem
+	}
 	/* Navigation */
 	.navbar-custom .social-icons {
 		display: block;
@@ -1933,7 +1942,9 @@ a:hover.back-to-top {
 
 /* Min-width width 1200px */
 @media (min-width: 1200px) {
-	
+	.header-text {
+		font-size:3rem
+	}
 	/* Navigation */
 	.navbar-custom {
 		padding: 2.125rem 5rem 2.125rem 5rem;
