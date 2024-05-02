@@ -632,8 +632,8 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-    width: 113px;
-	height: 34px;
+    width: 100px;
+	height: 80px;
 	margin-bottom: 1px;
 	-webkit-backface-visibility: hidden;
 }
@@ -786,7 +786,7 @@ input[type='checkbox'] {
 .slider-1 {
 	padding-top: 6.875rem;
 	padding-bottom: 6.375rem;
-	background-color: #262431;
+	background-color: #fff;
 }
 
 .slider-1 .slider-container {
@@ -847,7 +847,7 @@ input[type='checkbox'] {
 .tabs {
 	padding-top: 6.5rem;
 	padding-bottom: 4.25rem;
-	background-color: #2f2c3d;
+	background-color: #fff;
 }
 
 .tabs h2 {
@@ -1099,7 +1099,7 @@ input[type='checkbox'] {
 .basic-2 {
 	padding-top: 8rem;
 	padding-bottom: 3.5rem;
-	background-color: #262431;
+	background-color: #fff;
 }
 
 .basic-2 img {
@@ -1121,7 +1121,7 @@ input[type='checkbox'] {
 .basic-3 {
 	padding-top: 3.5rem;
 	padding-bottom: 7.25rem;
-	background-color: #262431;
+	background-color: #fff;
 }
 
 .basic-3 .text-container {
