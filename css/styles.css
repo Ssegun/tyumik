@@ -1008,6 +1008,14 @@ input[type='checkbox'] {
 /*********************/
 /*     07. Video     */
 /*********************/
+
+.basic {
+	padding-top: 6.375rem;
+	padding-bottom: 6.875rem;
+	background-size: cover; 
+	background-color:#fff;
+}
+
 .basic-1 {
 	padding-top: 6.375rem;
 	padding-bottom: 6.875rem;
