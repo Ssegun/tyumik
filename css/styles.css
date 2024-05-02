@@ -632,7 +632,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-    width: 100px;
+    width: 200px;
 	height: 80px;
 	margin-bottom: 1px;
 	-webkit-backface-visibility: hidden;
