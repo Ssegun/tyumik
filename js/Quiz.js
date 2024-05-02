@@ -57,7 +57,7 @@ Quiz.prototype.create = function() {
         self = this;
 
     document.title = this.name;
-    document.write("<h1>" + this.name + "</h1>");
+    // document.write("<h1>" + this.name + "</h1>");
 
     submit.type = "submit";
     submit.value = "Submit quiz";

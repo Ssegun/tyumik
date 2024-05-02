@@ -22,8 +22,8 @@ function Result(missing, right, wrong) {
         label.innerHTML = labels[i];
         score.innerHTML = arguments[i];
 
-        tr.appendChild(label);
-        tr.appendChild(score);
+        // tr.appendChild(label);
+        // tr.appendChild(score);
     }
 
     this.html.appendChild(tr);
