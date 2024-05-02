@@ -2135,12 +2135,12 @@ a.back-to-top {
 }
 
 .tele-slider {
-	width: 100px;
+	width: 255px;
 }
 
 @media (max-width: 1000px) {
 	.tele-slider {
-		width: 50px;
+		width: 160px;
 	}
 }
 /* end of min-width width 1200px */
