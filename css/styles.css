@@ -62,6 +62,8 @@ body, p {
 	padding-left: 1.25rem;
 }
 
+
+
 h1 {
 	color: #fff;
 	font: 700 2.5rem/2.875rem "Montserrat", sans-serif;
@@ -1393,12 +1395,12 @@ input[type='checkbox'] {
 }
 
 .footer .fa-stack .fa-stack-2x {
-	color: #000000;
+	color: #fff;
 	transition: all 0.2s ease;
 }
 
 .footer .fa-stack:hover .fa-stack-1x {
-	color: #000000;
+	color: #fff;
 }
 
 .footer .fa-stack:hover .fa-stack-2x {
