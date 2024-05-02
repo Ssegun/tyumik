@@ -4568,6 +4568,13 @@ input[type="button"].btn-block {
   background-color: #fff;
   background-clip: border-box;
   border-radius: 0.25rem;
+  width: 255px;
+}
+
+@media (max-width: 1000px) {
+	.card {
+		width: 160px;
+	}
 }
 
 .card > hr {
@@ -4589,6 +4596,13 @@ input[type="button"].btn-block {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 1.25rem;
+}
+
+@media (max-width: 1000px) {
+	.card-body {
+		padding: 0%;
+    width: 100px;
+	}
 }
 
 .card-title {
