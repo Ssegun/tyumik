@@ -1016,6 +1016,16 @@ input[type='checkbox'] {
 	background-color:#fff;
 }
 
+.basic h2 {
+	margin-bottom: 1.125rem;
+	text-align: center;
+}
+
+.basic .p-heading {
+	margin-bottom: 4rem;
+	text-align: center;
+}
+
 .basic-1 {
 	padding-top: 6.375rem;
 	padding-bottom: 6.875rem;
