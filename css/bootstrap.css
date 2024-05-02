@@ -482,8 +482,10 @@ mark,
 }
 
 .img-fluid-prog {
-  max-width: 100%;
+  max-width: 25%;
   height: auto;
+  border-radius: 50%;
+
 }
 
 .img-thumbnail {
