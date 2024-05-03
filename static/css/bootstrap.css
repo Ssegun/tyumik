@@ -4572,9 +4572,9 @@ input[type="button"].btn-block {
 }
 
 @media (max-width: 1000px) {
-	.card {
-		width: 160px;
-	}
+  .card {
+    width: 100px;
+  }
 }
 
 .card > hr {
