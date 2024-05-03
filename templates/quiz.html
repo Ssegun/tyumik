@@ -10,7 +10,7 @@
     <title>Quiz Project</title>
 
 	<!-- Styles -->
-    <link rel="stylesheet" type="text/css"  href="css_quiz/main.css" />
+    <link rel="stylesheet" type="text/css"  href="{{url_for('static', filename='css_quiz/main.css')}}" />
 
 </head>
 <body>
@@ -41,6 +41,6 @@
 
 
  <!-- Scripts -->
- <script src="js_quiz/main.js"></script>
+ <script src="{{url_for('static', filename='js_quiz/main.js')}}"></script>
 </body>  
 </html>
